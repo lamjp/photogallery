@@ -7,74 +7,93 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <header><!--Title and nav-->
         <h1>TK Photography</h1>
         <nav>
             <ul>
-                <li>About</li>
-                <li>Gallery</li>
-                <li>Contact</li>
-                <li>^ top</li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#top">^ top</a></li>
             </ul>    
         </nav>
     </header>
-    <main>
-
-        <h2>About</h2>
-        <img src="TK.png">
-        <p>Hello!<br>I'm TK and I'm a photographer. I love looking at life through the lens of my camera. Landscape photography is my specialty and it's taken me all over the world.</p> 
-        
-        <h2>Gallery</h2>
-        <p>Here are some highlights of my work. The locations and year are in the caption.</p> 
-
-        <figure>
-        <img src="Chile.png" alt="">
-        <figcaption>Chile, 2001</figcaption>
-        </figure>
-
-        Guatemala.png
-        Guatemala, 1997
-
-        Hawaii.png
-        Hawaii, 2010
-
-        Iran.png
-        Iran, 1999
-
-        Ireland.png
-        Ireland, 2012
-
-        Italy.png
-        Italy, 2015
-
-        Moab-Desert.png
-        Moab Desert, 2020
-
-        Rocky-Mountains.png
-        Rocky Mountains, 2009
-
-        Switzerland.png
-        Switzerland, 2014
-
-        UK.png
-        UK, 2005
-
-        USA.png
-        USA, 2021
-
-        Wyoming.png
-        Wyoming, 2021
-        Contact
-        Please fill out this form and I'll connect with you soon.
-
-        Your contact information
-        Name (Your full name)
-        Email (Enter your email address)
-        Message (What can I help you with?)
-        Submit
+    <main><!--main content-->
+        <section id="about"><!--about me-->
+            <h2>About</h2>
+            <img src="images/TK.png" alt = "">
+            <p>Hello!<br>I'm TK and I'm a photographer.<br> I love looking at life through the lens of my<br> camera. Landscape photography is my<br> specialty and it's taken me all over the world.</p> 
+        </section>
+        <section id="gallery"><!--gallery body and images-->
+            <h2>Gallery</h2>
+            <p>Here are some highlights of my work. The locations and year are in the caption.</p> 
+                <!--images-->
+            <figure><!--pic 1-->
+                <img src="images/Chile.png" alt="landscape of beach and cliff in Chile during dawn/dusk">
+                <figcaption>Chile, 2001</figcaption>
+            </figure>
+            <figure><!--pic 2-->
+                <img src="images/Guatemala.png" alt="landscape of flowers, dock, lake, and mountains in Guatemala during dawn/dusk">
+                <figcaption>Guatemala, 1997</figcaption>
+            </figure>
+            <figure><!--pic 3-->
+                <img src="images/Hawaii.png" alt="landscape of beach, forest, and mountainside in Hawaii during daytime">
+                <figcaption>Hawaii, 2010</figcaption>
+            </figure>
+            <figure><!--pic 4-->
+                <img src="images/Iran.png" alt="landscape of red shrubbery, plains, and mountains in Iran during dawn/dusk">
+                <figcaption>Iran, 1999</figcaption>
+            </figure>
+            <figure><!--pic 5-->
+                <img src="images/Ireland.png" alt="landscape of foggy, green hills and trees in Ireland">
+                <figcaption>Ireland, 2012</figcaption>
+            </figure>
+            <figure><!--pic 6-->
+                <img src="images/Italy.png" alt="landscape of a lake and mountains with a boat in Italy">
+                <figcaption>Italy, 2015</figcaption>
+            </figure>
+            <figure><!--pic 7-->
+                <img src="images/Moab-Desert.png" alt="landscape of canyon during dawn/dusk in Moab, Utah">
+                <figcaption>Moab Desert, 2020</figcaption>
+            </figure>
+            <figure><!--pic 8-->
+                <img src="images/Rocky-Mountains.png" alt="landscape of seaside cliffs near the Rocky Mountains">
+                <figcaption>Rocky Mountains, 2009</figcaption>
+            </figure>
+            <figure><!--pic 9-->
+                <img src="images/Switzerland.png" alt="landscape of snowy mountain range in Switzerland">
+                <figcaption>Switzerland, 2014</figcaption>
+            </figure>
+            <figure><!--pic 10-->
+                <img src="images/UK.png" alt="landscape of hills in the UK">
+                <figcaption>UK, 2005</figcaption>
+            </figure>
+            <figure><!--pic 11-->
+                <img src="images/USA.png" alt="landscape of flowers, plains, forest, and mountains during dawn/dusk in the USA">
+                <figcaption>USA, 2021</figcaption>
+            </figure>
+            <figure><!--pic 12-->
+                <img src="images/Wyoming.png" alt="landscape of a pond, forest, and mountains during dawn/dusk in Wyoming">
+                <figcaption>Wyoming, 2021</figcaption>
+            </figure>
+        </section>
+        <section id="contact"><!--contact form-->
+            <h2>Contact</h2><!--form header-->
+            <p>Please fill out this form and I'll connect with you soon.</p>
+            <!--Your contact information-->
+            <form action="X">
+                <label for="name">Name</label><br> 
+                <input type="text" id="name" value="Your full name"><br>
+                <label for="email">Email</label><br> 
+                <input type="text" id="email" value="Enter your email address"><br>
+                <label for="message">Message</label><br> 
+                <input type="text" id="message" value="What can I help you with?"><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
     </main>
-    <footer>
-        <small>Copyright 2021 TK Photography</small>
+    <footer><!--footer/copyright-->
+        <small>Copyright 2022 TK Photography</small>
     </footer>
 </body>
 </html>
