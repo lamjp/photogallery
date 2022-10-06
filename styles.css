@@ -1,0 +1,200 @@
+html {
+    background: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    width: 1310px;
+    margin: 0 auto;
+}
+header {
+    margin: 20px;
+}
+h1 {
+    font-size: 40px;
+    color: #007D7B;
+    text-transform: uppercase;
+    display: inline;
+}
+nav {
+    float: right;
+}
+nav li {
+    display: inline;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+nav a {
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+    margin-right: 130px;
+}
+nav a:hover {
+    color: #007D7B;
+}
+[href="#top"] {
+    position: fixed;
+    margin: 0 auto;
+    bottom: 0px;
+    right: 0px;
+    background-color: #007D7B;
+    padding: 5px 20px;
+    z-index:1
+}
+[href="#top"]:hover {
+    background-color: #FFFFFF; 
+}
+#nocontact {
+    clear: both;
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 10px;
+    height: 1790px;
+}
+h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+p {
+    font-size: 20px;
+}
+#about h2 {
+    float: right;
+}
+img TK.png {
+    width: 850px;
+    height: 420px;
+}
+#about p {
+    position: relative;
+    left: 880px;
+    top: -150px;
+    width: 400px;
+    text-align: right;
+}
+#gallery {
+    clear: both;
+    position: relative;
+    top:-150px;
+}
+#gallery h2 {
+    margin: 0 10px;
+}
+#gallery p {
+    margin: 10px;
+}
+figure {
+    margin: 5px 5px 5px 5px;
+    display:inline;
+    float:left;
+    width: 420px;
+}
+.row1 {
+    height: 281px;
+}
+.row2 {
+    height: 630px;
+}
+.row3 {
+    height: 281px;
+}
+.row4 {
+    height: 281px;
+}
+figcaption {
+    position: relative;
+    font-size: 16px;
+    top: -281px;
+    left: 6px;
+}
+.row2 figcaption {
+    top:-630px;
+}
+/*individual figcaption changes*/
+#pic2 {
+    color: #FFFFFF;
+}
+#pic3 {
+    color: #FFFFFF;
+    top: -30px;
+    left: 320px
+}
+#pic5 {
+    color: #FFFFFF;
+    top: -30px;
+    left: 317px;
+}
+#pic6 {
+    color: #FFFFFF;
+    top: -30px;
+    left: 6px;
+}
+#pic7 {
+    color: #FFFFFF;
+    top: -30px;
+    left: 276px;
+}
+#pic9 {
+    top: -30px;
+}
+#pic10 {
+    color: #FFFFFF;
+    top: -30px;
+    left: 345px;
+}
+#pic11 {
+    color: #FFFFFF;
+}
+#pic12 {
+    color: #FFFFFF;
+}
+/*end of individual figcaption changes*/
+#contact {
+    clear:both;
+    width: 850px;
+    position:relative;
+    top: -120px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+#contact h2 {
+    color: #FFFFFF;
+    text-align: center;
+}
+#contact p {
+    color: #FFFFFF;
+    text-align: center;
+}
+#contact form {
+    width: 850px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+form label {
+    color: #FFFFFF;
+}
+form input[type=text] {
+    width: 850px;
+    color:#007D7B;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 5px;
+    margin: 5px 0;
+}
+form input[type=submit] {
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color:#007D7B;
+    color:#FFFFFF;
+    margin: 5px 225px 20px 225px;
+}
+footer {
+    position: relative;
+    top: -110px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+}

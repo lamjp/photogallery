@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header><!--Title and nav-->
@@ -14,68 +15,70 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="#top">^ top</a></li>
+                <li><a href="#top">^<br>top</a></li>
             </ul>    
         </nav>
     </header>
     <main><!--main content-->
-        <section id="about"><!--about me-->
-            <h2>About</h2>
-            <img src="images/TK.png" alt = "">
-            <p>Hello!<br>I'm TK and I'm a photographer.<br> I love looking at life through the lens of my<br> camera. Landscape photography is my<br> specialty and it's taken me all over the world.</p> 
-        </section>
-        <section id="gallery"><!--gallery body and images-->
-            <h2>Gallery</h2>
-            <p>Here are some highlights of my work. The locations and year are in the caption.</p> 
+        <section id="nocontact">
+            <section id="about"><!--about me-->
+                <h2>About</h2>
+                <img src="images/TK.png" alt = "">
+                <p>Hello!<br>I'm TK and I'm a photographer.<br> I love looking at life through the lens of my<br> camera. Landscape photography is my<br> specialty and it's taken me all over the world.</p> 
+            </section>
+            <section id="gallery"><!--gallery body and images-->
+                <h2>Gallery</h2>
+                <p>Here are some highlights of my work. The locations and year are in the caption.</p> 
                 <!--images-->
-            <figure><!--pic 1-->
-                <img src="images/Chile.png" alt="landscape of beach and cliff in Chile during dawn/dusk">
-                <figcaption>Chile, 2001</figcaption>
-            </figure>
-            <figure><!--pic 2-->
-                <img src="images/Guatemala.png" alt="landscape of flowers, dock, lake, and mountains in Guatemala during dawn/dusk">
-                <figcaption>Guatemala, 1997</figcaption>
-            </figure>
-            <figure><!--pic 3-->
-                <img src="images/Hawaii.png" alt="landscape of beach, forest, and mountainside in Hawaii during daytime">
-                <figcaption>Hawaii, 2010</figcaption>
-            </figure>
-            <figure><!--pic 4-->
-                <img src="images/Iran.png" alt="landscape of red shrubbery, plains, and mountains in Iran during dawn/dusk">
-                <figcaption>Iran, 1999</figcaption>
-            </figure>
-            <figure><!--pic 5-->
-                <img src="images/Ireland.png" alt="landscape of foggy, green hills and trees in Ireland">
-                <figcaption>Ireland, 2012</figcaption>
-            </figure>
-            <figure><!--pic 6-->
-                <img src="images/Italy.png" alt="landscape of a lake and mountains with a boat in Italy">
-                <figcaption>Italy, 2015</figcaption>
-            </figure>
-            <figure><!--pic 7-->
-                <img src="images/Moab-Desert.png" alt="landscape of canyon during dawn/dusk in Moab, Utah">
-                <figcaption>Moab Desert, 2020</figcaption>
-            </figure>
-            <figure><!--pic 8-->
-                <img src="images/Rocky-Mountains.png" alt="landscape of seaside cliffs near the Rocky Mountains">
-                <figcaption>Rocky Mountains, 2009</figcaption>
-            </figure>
-            <figure><!--pic 9-->
-                <img src="images/Switzerland.png" alt="landscape of snowy mountain range in Switzerland">
-                <figcaption>Switzerland, 2014</figcaption>
-            </figure>
-            <figure><!--pic 10-->
-                <img src="images/UK.png" alt="landscape of hills in the UK">
-                <figcaption>UK, 2005</figcaption>
-            </figure>
-            <figure><!--pic 11-->
-                <img src="images/USA.png" alt="landscape of flowers, plains, forest, and mountains during dawn/dusk in the USA">
-                <figcaption>USA, 2021</figcaption>
-            </figure>
-            <figure><!--pic 12-->
-                <img src="images/Wyoming.png" alt="landscape of a pond, forest, and mountains during dawn/dusk in Wyoming">
-                <figcaption>Wyoming, 2021</figcaption>
-            </figure>
+                <figure class="row1"><!--pic 1-->
+                    <img src="images/Chile.png" alt="landscape of beach and cliff in Chile during dawn/dusk">
+                    <figcaption id="pic1">Chile, 2001</figcaption>
+                </figure>
+                <figure class="row1"><!--pic 2-->
+                    <img src="images/Guatemala.png" alt="landscape of flowers, dock, lake, and mountains in Guatemala during dawn/dusk">
+                    <figcaption id="pic2">Guatemala, 1997</figcaption>
+                </figure>
+                <figure class="row1"><!--pic 3-->
+                    <img src="images/Hawaii.png" alt="landscape of beach, forest, and mountainside in Hawaii during daytime">
+                    <figcaption id="pic3">Hawaii, 2010</figcaption>
+                </figure>
+                <figure class="row2"><!--pic 4-->
+                    <img src="images/Iran.png" alt="landscape of red shrubbery, plains, and mountains in Iran during dawn/dusk">
+                    <figcaption id="pic4">Iran, 1999</figcaption>
+                </figure>
+                <figure class="row2"><!--pic 5-->
+                    <img src="images/Ireland.png" alt="landscape of foggy, green hills and trees in Ireland">
+                    <figcaption id="pic5">Ireland, 2012</figcaption>
+                </figure>
+                <figure class="row2"><!--pic 6-->
+                    <img src="images/Italy.png" alt="landscape of a lake and mountains with a boat in Italy">
+                    <figcaption id="pic6">Italy, 2015</figcaption>
+                </figure>
+                <figure class="row3"><!--pic 7-->
+                    <img src="images/Moab-Desert.png" alt="landscape of canyon during dawn/dusk in Moab, Utah">
+                    <figcaption id="pic7">Moab Desert, 2020</figcaption>
+                </figure>
+                <figure class="row3"><!--pic 8-->
+                    <img src="images/Rocky-Mountains.png" alt="landscape of seaside cliffs near the Rocky Mountains">
+                    <figcaption id="pic8">Rocky Mountains, 2009</figcaption>
+                </figure>
+                <figure class="row3"><!--pic 9-->
+                    <img src="images/Switzerland.png" alt="landscape of snowy mountain range in Switzerland">
+                    <figcaption id="pic9">Switzerland, 2014</figcaption>
+                </figure>
+                <figure class="row4"><!--pic 10-->
+                    <img src="images/UK.png" alt="landscape of hills in the UK">
+                    <figcaption id="pic10">UK, 2005</figcaption>
+                </figure>
+                <figure class="row4"><!--pic 11-->
+                    <img src="images/USA.png" alt="landscape of flowers, plains, forest, and mountains during dawn/dusk in the USA">
+                    <figcaption id="pic11">USA, 2021</figcaption>
+                </figure>
+                <figure class="row4"><!--pic 12-->
+                    <img src="images/Wyoming.png" alt="landscape of a pond, forest, and mountains during dawn/dusk in Wyoming">
+                    <figcaption id="pic12">Wyoming, 2021</figcaption>
+                </figure>
+            </section>
         </section>
         <section id="contact"><!--contact form-->
             <h2>Contact</h2><!--form header-->
